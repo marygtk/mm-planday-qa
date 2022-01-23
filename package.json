@@ -1,0 +1,30 @@
+{
+  "name": "mm-planday-qa",
+  "version": "1.0.0",
+  "description": "planday challenge qa automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marygtk/mm-planday-qa.git"
+  },
+  "author": "Maria Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marygtk/mm-planday-qa/issues"
+  },
+  "homepage": "https://github.com/marygtk/mm-planday-qa#readme",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.23.0",
+    "allure-commandline": "^2.17.2",
+    "cypress": "^9.3.1",
+    "mocha": "^9.1.4",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.0.1"
+  },
+  "dependencies": {}
+}
