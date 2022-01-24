@@ -1,0 +1,42 @@
+{
+  "baseUrl":{
+    "url": "https://test1234.planday.com",
+    "bannerDiv":"#cookie-banner",
+    "cookieBtn":"#cookie-consent-button:contains(OK)"
+  },
+  "loginObjects": {
+    "formDiv":".content__wrapper__form",
+    "username":"#Username",
+    "password":"#Password",
+    "showIcon":"#show-icon",
+    "forgotPassword":"#login-form__password-forgotten-button",
+    "submitLogin":"#MainLoginButton",
+    "errorUsername":"#Username-validation-error",
+    "passwordError":"#Password-validation-error"
+  },
+  "scheduleObjects":{
+    "nav":"ul > li > a:contains(Schedule)",
+    "grid":"[class~=ReactVirtualized__Grid__innerScrollContainer]",
+    "nextWeekArrow":"div > button.button--right.date-bar__button",
+    "shiftForm":"shift-form",
+    "intervalDates":"#shiftStartEnd_start",
+    "dates":"[data-testid~='dropdownOption09:00/17:00']",
+    "submitShiftForm":"body > div:nth-child(12) > div > div > div > div.edit-shift-modal__footer > div > div > ul > li:nth-child(1) > button"
+  },
+  "peopleObjects": {
+    "nav":"#root > div > header > nav.sc-eCImPb.bkFHwb > ul > li:nth-child(3) > a",
+    "createEmployeeButton":"div.toolbar__item.toolbar__item--float-right > button",
+    "createEmployeeForm":"body > div:nth-child(13) > div > div",
+    "employeeName":"#firstName",
+    "employeeLastName":"#lastName",
+    "employeeEmail":"#userName",
+    "calendarInputId":"#birthDate",
+    "taxCode":"#ssn",
+    "genderId":"#gender",
+    "addressId":"#street1",
+    "zipCode":"#zip",
+    "cityId":"#city",
+    "saveForm":"body > div:nth-child(13) > div > div > div.styled__StyledHeader-sc-1y3dwe7-0.hrOioX > div.__shared____StyledButtonContainer-sc-1w0ba50-7.dfeAbK > div.sc-uJMKN.cUcaly > button",
+    "employeesCount":"#container-platform-hr > div > div.app-frame__main > div.sc-brqgnP.dQgLTt > div.app-frame__content.app-frame__content--no-scrollbar.app-frame__content--wht-bg > div.sc-jzJRlG.cJkeHK > div > div > div:nth-child(2) > div.ReactVirtualized__Grid.ReactVirtualized__List > div"
+  }
+}
